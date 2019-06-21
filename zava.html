@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ZAVA</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <style>
+  	button {
+  		background-color: #212929
+
+  	}
+  	nav {
+  		background-color: #2b949a 
+
+  	}
+  	hr {
+  		color: black
+  	}
+    .card{
+      background-color: #212929;
+    }
+    img.pic{
+      position: absolute;
+      top: 50 px;
+      left:50 px;
+      z-index: 1
+      
+    }
+  </style>
+</head>
+<body> 
+ <div class="container-fluid">
+  <nav class="navbar navbar-expand-sm navbar-dark">
+  <a class="navbar-brand" href="#">ZAVA</a>
+  <form class="form-inline" action="/action_page.php">
+    <input class="form-control mr-sm-2" type="text" placeholder="Search">
+    <button class="btn btn-dark" type="submit">Search</button>
+  </form>
+</nav> 
+<br>
+  <div class="row">
+  <div class="col-sm-3">
+    <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+      <a class="nav-link active" id="v-pills-newsfeed-tab" data-toggle="pill" href="#v-pills-newsfeed" role="tab" aria-controls="v-pills-newsfeed" aria-selected="true">Home</a>
+      <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Profile</a>
+      <a class="nav-link" id="v-pills-friends-tab" data-toggle="pill" href="#v-pills-friends" role="tab" aria-controls="v-pills-friends" aria-selected="false">Friends</a>
+      <a class="nav-link" id="v-pills-friendrequests-tab" data-toggle="pill" href="#v-pills-friendrequests" role="tab" aria-controls="v-pills-friendrequests" aria-selected="false">Friend Requests</a>
+      <a class="nav-link" id="v-pills-circles-tab" data-toggle="pill" href="#v-pills-circles" role="tab" aria-controls="v-pills-circles" aria-selected="false">Circles</a>
+      <a class="nav-link" id="v-pills-circlerequests-tab" data-toggle="pill" href="#v-pills-circlerequests" role="tab" aria-controls="v-pills-circlerequests" aria-selected="false">Circle Requests</a>
+    </div>
+  </div>
+  <div class="col-sm-6">
+  <div class="tab-content" id="v-pills-tabContent">
+      <div class="tab-pane fade show active" id="v-pills-newsfeed" role="tabpanel" aria-labelledby="v-pills-newsfeed-tab">hii</div>
+      <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+      	<div class="container">
+  <div class="card">
+  <div class="card-body">
+    <div class="card">
+      <div class="card-body bg-info">
+        <div class="card">
+          <img class="card-img-top" src="/home/baladharshini/Downloads/cover.jpeg" height="200" alt="Card image">
+          <img class="pic" src="/home/baladharshini/Downloads/images.png" alt="pic" height="100" width="100">
+        <div class="card-body bg-light">
+          <h2 class="card-title">Baladharshini</h2>
+    <p class="card-text">Some example text.</p>
+    <a href="#" class="btn btn-primary">share</a>
+    </div></div><br>
+    <div class="card">
+      <div class="card-body bg-light">
+        <p class="card-text"><b>Experience:</b><br>Worked at Infosys for 3 years<hr><b>Education:</b>Dr.Sivanthi Aditanar College of Engineering<br>B.E.,Computer Science and Engineering<br>2015-2019</p>
+      </div>
+    </div>
+    <br>
+    <div class="card">
+      <div class="card-body bg-light">
+        <p class="card-text"><b>Accomplishments:</b><br>Projects:<br>Lung Cancer Detection using Image Processing</div>
+    </div>
+    <br>
+      <div class="card-columns">
+      <div class="card" style="width:100%">
+      <div class="card-body bg-light">
+        <p class="card-text"><b>Skills:</b>
+          <br>C
+           <div class="progress">
+            <div class="progress-bar" style="width:100%"></div>
+           </div> 
+        </p>
+      </div>
+    </div> 
+    <div class="card" style="width:100%">
+    <div class="card-body bg-light">
+      <p class="card-text"><b>Tools known:</b>
+        <br><ul><li>Eclipse</li><li>Selenium</li><li>Netbeans</li></ul></p>
+    </div>
+    </div>
+    </div>
+    <br>
+    <div class="card">
+      <div class="card-body bg-light">
+        <p class="card-text"><b>Experience:</b><br>Worked at Infosys for 3 years<hr><b>Education:</b>Dr.Sivanthi Aditanar College of Engineering<br>B.E.,Computer Science and Engineering<br>2015-2019</p>
+      </div>
+    </div>
+    <br>
+    
+    
+
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+      </div>
+      <div class="tab-pane fade" id="v-pills-friends" role="tabpanel" aria-labelledby="v-pills-friends-tab">welcome</div>
+      <div class="tab-pane fade" id="v-pills-friendrequests" role="tabpanel" aria-labelledby="v-pills-friendrequests-tab">how are you</div>
+    <div class="tab-pane fade" id="v-pills-circles" role="tabpanel" aria-labelledby="v-pills-circles-tab">how</div>
+    <div class="tab-pane fade" id="v-pills-circlerequests" role="tabpanel" aria-labelledby="v-pills-circlerequests-tab">how</div>
+    </div>
+  </div>
+  <div class="col-sm-3">
+  <div class="card">
+    <div class="card-body">Basic card</div>
+  </div>
+  </div>
+</div> 
+</div>
+</body>
+</html>
