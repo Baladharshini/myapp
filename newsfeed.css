@@ -1,0 +1,52 @@
+hr {
+  	color: black;
+}
+input{
+	border: none;
+	background: transparent;
+	padding: 10px;
+}
+span{
+	margin: 5px;
+	padding: 10px;
+	font-size: 1em;
+	font-weight: bold;
+	color: #2b949a
+}
+button{
+	border-radius: 5px;
+	margin: 4px 4px;
+	background-color: #2b949a;
+}
+h6{
+	color: grey;
+}
+p.time{
+	color: grey;
+	font-size:16px;
+}
+.profile{
+	float: left;
+}
+.details{
+	float: left;
+	padding: 0;
+	margin-left: 10px;
+}
+.card-header{
+	background-color: #2b949a;
+}
+.box{
+	overflow: hidden
+}
+p.art{
+	text-indent: 50px;
+	font-size: 16px;
+}
+h4{
+	color: #2b949a;
+	font-weight: bold;
+}
+*{
+	font-family: Roboto;
+}
